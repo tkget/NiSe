@@ -1,1 +1,0 @@
-{ "ci": { "collectCoverage": false }, "testPathIgnorePatterns": ["/node_modules/", "/.next/"] }
