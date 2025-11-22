@@ -1,10 +1,10 @@
 'use client';
 import type { Metadata } from 'next'
-import '@/app/globals.css'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'NiSe',
-  description: 'prototype',
+  description: '即日バイトマッチング'
 }
 
 export default function RootLayout({
@@ -14,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body className="bg-black text-white min-h-screen antialiased">
+        {children}
+      </body>
     </html>
   )
 }
