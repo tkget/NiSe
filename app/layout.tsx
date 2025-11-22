@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'NiSe',
-  description: '即日バイトマッチング',
+  description: 'prototype',
 }
 
 export default function RootLayout({
